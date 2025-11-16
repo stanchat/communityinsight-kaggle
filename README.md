@@ -3,7 +3,7 @@
 **Google-Kaggle Agents for Good Competition Submission**
 
 🌐 **Live Platform**: https://communityinsight.ai  
-📓 **Interactive Demo**: [Kaggle Notebook](ADD_YOUR_KAGGLE_NOTEBOOK_URL_HERE) - **Click "Run All"** (No API keys required!)  
+📓 **Interactive Demo**: [Kaggle Notebook](https://www.kaggle.com/code/stanleychatman/communityinsight-ai-gemini-demo) - **Click "Run All"** (No API keys required!)  
 📦 **GitHub Code**: https://github.com/stanchat/communityinsight-kaggle  
 🏆 **Competition**: Google Agents Intensive - Capstone Project 2025  
 📅 **Submission Date**: November 2025
