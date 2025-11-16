@@ -1,0 +1,45 @@
+{
+  "name": "communityinsight-kaggle-submission",
+  "version": "1.0.0",
+  "description": "5 Autonomous AI Agents for Civic Good - Kaggle Competition Submission",
+  "main": "agents/survey-builder-agent.ts",
+  "scripts": {
+    "demo:survey": "tsx agents/survey-builder-agent.ts",
+    "demo:grants": "tsx agents/grant-discovery-agent.ts",
+    "demo:ballot": "tsx agents/ballot-research-agent.ts",
+    "demo:schools": "tsx agents/school-discovery-agent.ts",
+    "demo:insights": "tsx agents/community-insight-agent.ts",
+    "demo:all": "npm run demo:survey && npm run demo:grants && npm run demo:ballot && npm run demo:schools && npm run demo:insights"
+  },
+  "keywords": [
+    "ai-agents",
+    "civic-tech",
+    "claude",
+    "autonomous-agents",
+    "kaggle",
+    "social-good",
+    "municipal-data",
+    "grant-discovery",
+    "community-insight"
+  ],
+  "author": "Stanley Chatman",
+  "license": "CC-BY-SA-4.0",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "axios": "^1.7.9"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stanchat/communityinsight-kaggle"
+  },
+  "homepage": "https://communityinsight.ai",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
