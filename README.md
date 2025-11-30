@@ -126,25 +126,25 @@ Transforms citizen feedback into actionable intelligence using NLP and Claude AI
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                    Agent Orchestration Layer                │
-│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐      │
-│  │ Survey   │ │  Grant   │ │  Ballot  │ │  School  │      │
-│  │ Builder  │ │Discovery │ │ Research │ │Discovery │ ...  │
-│  └──────────┘ └──────────┘ └──────────┘ └──────────┘      │
+│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐        │
+│  │ Survey   │ │  Grant   │ │  Ballot  │ │  School  │        │
+│  │ Builder  │ │Discovery │ │ Research │ │Discovery │ ...    │
+│  └──────────┘ └──────────┘ └──────────┘ └──────────┘        │
 └─────────────────────────────────────────────────────────────┘
                            ↓
 ┌─────────────────────────────────────────────────────────────┐
-│              External Integration Layer                      │
-│  • 15+ Government APIs (Census, Civic, Grants.gov, etc.)   │
-│  • Multi-model AI (Claude 4.5 Sonnet + Google Gemini)     │
-│  • API Response Caching (70% query reduction)              │
-│  • Exponential Backoff Retry Logic                        │
+│              External Integration Layer                     │
+│  • 15+ Government APIs (Census, Civic, Grants.gov, etc.)    │
+│  • Multi-model AI (Claude 4.5 Sonnet + Google Gemini)       │
+│  • API Response Caching (70% query reduction)               │
+│  • Exponential Backoff Retry Logic                          │  
 └─────────────────────────────────────────────────────────────┘
                            ↓
 ┌─────────────────────────────────────────────────────────────┐
-│                   Observability Layer                        │
-│  • Structured Logging with Request ID Tracing              │
-│  • Real-time Error Metrics (5-minute rolling window)       │
-│  • SLA-based Alerting (CRITICAL: >20 errors/min)          │
+│                   Observability Layer                       │
+│  • Structured Logging with Request ID Tracing               │
+│  • Real-time Error Metrics (5-minute rolling window)        │
+│  • SLA-based Alerting (CRITICAL: >20 errors/min)            │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -163,7 +163,7 @@ Transforms citizen feedback into actionable intelligence using NLP and Claude AI
 
 **Easiest way to see the agents in action!**
 
-👉 **[Open Kaggle Notebook](ADD_YOUR_KAGGLE_NOTEBOOK_URL_HERE)**
+👉 **[Open Kaggle Notebook](https://www.kaggle.com/code/stanleychatman/communityinsight-ai-gemini-demo)**
 
 - ✅ **No installation** - Runs in your browser
 - ✅ **No API keys** - Uses sample data from production
